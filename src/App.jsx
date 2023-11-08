@@ -9,7 +9,6 @@ import {
   Tech,
   Works,
   StarsCanvas,
-  StarsCanvas_2,
   Footer,
 } from "./components";
 
@@ -20,7 +19,7 @@ const App = () => {
         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
           <Navbar />
           <Hero />
-          <StarsCanvas_2 />
+          {/* <StarsCanvas_2 /> */}
         </div>
         <About />
         {/* <Experience /> */}

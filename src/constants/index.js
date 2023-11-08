@@ -24,6 +24,7 @@ import {
   tripguide,
   threejs,
   FurnitureMarketplace,
+  Shirt_JS,
 } from "../assets";
 
 export const navLinks = [
@@ -192,8 +193,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Jersey Designer",
-    description: "d fdsjaf hlsadljhfalksjhasdlkf jhasldkfjsa f",
+    name: "AI Shirt Designer",
+    description:
+      "A shirt design website made with React and Three.js. You can design your own shirt by choosing a color, uploading an image for the logo, and adding a texture for the shirt. Using Dalle AI, you can also use AI to generate a logo or shirt texture. Finally, you can save a .png of the shirt from the website to your computer.",
     tags: [
       {
         name: "React",
@@ -204,12 +206,12 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Tailwind CSS",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: Shirt_JS,
+    source_code_link: "http://www.colinwu.me/ShirtJS/",
   },
   {
     name: "Furniture Marketplace",

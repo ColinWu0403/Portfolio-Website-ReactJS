@@ -30,6 +30,7 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import FurnitureMarketplace from "./FurnitureMarketplace.png";
+import Shirt_JS from "./Shirt_JS.png";
 
 export {
   logo,
@@ -61,4 +62,5 @@ export {
   jobit,
   tripguide,
   FurnitureMarketplace,
+  Shirt_JS,
 };

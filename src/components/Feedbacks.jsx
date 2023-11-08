@@ -47,13 +47,29 @@ const FeedbackCard = ({
 const Feedbacks = () => {
   return (
     <div className={`mt-12 bg-black-100 rounded-[20px]`}>
-      <div className={`bg-tertiary rounded-2xl ${styles.padding} min-h-[70px]`}>
+      <div
+        className={`bg-tertiary rounded-2xl ${styles.padding} min-h-[70px] flex-wrap`}
+      >
         <motion.div variants={textVariant()}>
           <p className={styles.sectionSubText}>My Resume</p>
           <h2 className={styles.sectionHeadText}>Resume</h2>
         </motion.div>
       </div>
       <PDFViewer />
+      <div
+        className={`bg-tertiary rounded-2xl ${styles.padding} min-h-[40px] flex-wrap`}
+      >
+        <button
+          type="submit"
+          className=" bg-tertairy py-5 px-9 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl"
+        >
+          <a href="./ChiCheColinWuResume.pdf" download>
+            <h3 className="text-white font-bold text-[18px] hover:text-teal-200 transition-all">
+              Download Resume
+            </h3>
+          </a>
+        </button>
+      </div>
 
       {/* <div className={`-mt-20 pb-14 ${styles.paddingX} flex flex-wrap gap-7`}>
         {testimonials.map((testimonial, index) => (

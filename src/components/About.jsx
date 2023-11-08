@@ -40,9 +40,11 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I am a student and software developer currently studying Computer
-        Science at Purdue University. I want to learn React and other JavaScript
-        stuff!
+        Hello There! My name is Colin, and I am a software developer studying
+        Computer Science at Purdue University. I am interested facing new
+        challenges and creating innovative solutions for these challenges. I
+        embrace new ideas and technologies, working towards a greater
+        understanding of the world around me.
       </motion.p>
       <br />
       <motion.p
