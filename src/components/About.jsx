@@ -70,9 +70,13 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I know HTML, CSS, JavaScript, React, and React Native for frontend
-        development. I am also proficient in Java, C, C++, Python, and PHP. I
-        have also used MySQL and know Git and Bash.
+        I have expertise in programming with Java, C, C++, Python, JavaScript,
+        and PHP. For front-end, I have experience creating applications with
+        React and React Native and designing websites with HTML, CSS,
+        JavaScript, and TypeScript. For back-end, I've created projects in Djago
+        and Rust. I am also familiar with testing local servers and databases
+        with MySQL and XAMPP. I am also familiar devloping in Linux with Bash
+        and source control with Git.
       </motion.p>
     </>
   );

@@ -48,19 +48,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Full Stack Development",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Software Engineering",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Computer Engineering",
     icon: backend,
   },
   {
-    title: "Software Developer",
+    title: "Artificial Intelligence",
     icon: creator,
   },
 ];
@@ -193,7 +193,77 @@ const testimonials = [
 
 const projects = [
   {
-    name: "AI Shirt Designer",
+    name: "Artikulate",
+    description:
+      "Artikulate is a cutting-edge platform that revolutionizes content creation by transforming text into captivating videos tailored for platforms like TikTok. Users can harness the power of generative AI for creative story generation or opt to web scrape real articles, leading to the creation of fully edited videos featuring text-to-speech audio and dynamic captions.",
+    tags: [
+      {
+        name: "Django",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Selenium",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "FFmpeg",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "OpenAI",
+        color: "green-text-gradient",
+      },
+    ],
+    image:
+      "https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/002/725/812/datas/original.png",
+    source_code_link: "https://devpost.com/software/artikulate",
+  },
+  {
+    name: "Mixtape",
+    description:
+      "Mixtape is a collaborative music-sharing app available on iOS, Android, and the web, representing ACM SigApp’s official project for 2023-2024. This cross-platform application, developed using React Native and Rust (Actix Web), empowers users to collectively create and share playlists, fostering a collaborative music experience.",
+    tags: [
+      {
+        name: "React Native",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Rust",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "green-text-gradient",
+      },
+    ],
+    image:
+      "https://raw.githubusercontent.com/Purdue-ACM-SIGAPP/mixtape-frontend/dev/mixtape-rn-app-v0/assets/mixtape.png",
+    source_code_link:
+      "https://github.com/orgs/Purdue-ACM-SIGAPP/teams/mixtape/repositories",
+  },
+  {
+    name: "Ascend Purdue Website",
+    description:
+      "Ascend Purdue Business Club's official website, developed using React and TypeScript with TailwindCSS styling. Deployed on AscendPurdue.com via Vercel, the site ensures seamless hosting and accessibility. The website has a modern, responsive, and mobile-friendly design, making it easy to navigate and showcases the club's core values and information.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "TypeScript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: "https://i.postimg.cc/JnYsytZs/Ascend-Purdue-Screenshot.png",
+    source_code_link: "https://github.com/ColinWu0403/AscendWebsiteDev",
+  },
+  {
+    name: "Shirt JS",
     description:
       "A shirt design website made with React and Three.js. You can design your own shirt by choosing a color, uploading an image for the logo, and adding a texture for the shirt. Using Dalle AI, you can also use AI to generate a logo or shirt texture. Finally, you can save a .png of the shirt from the website to your computer.",
     tags: [
@@ -231,23 +301,23 @@ const projects = [
     source_code_link: "https://github.com/ColinWu0403/CS180_Project5",
   },
   // {
-  //   name: "Trip Guide",
-  //   description: "sdfasjdkfl;asd fas dfadfa;dlkfj as;dlkfjas;dlkfaj;sd j;al",
+  //   name: "",
+  //   description: "",
   //   tags: [
   //     {
-  //       name: "nextjs",
+  //       name: "",
   //       color: "blue-text-gradient",
   //     },
   //     {
-  //       name: "supabase",
+  //       name: "",
   //       color: "green-text-gradient",
   //     },
   //     {
-  //       name: "css",
+  //       name: "",
   //       color: "pink-text-gradient",
   //     },
   //   ],
-  //   image: tripguide,
+  //   image: "",
   //   source_code_link: "https://github.com/",
   // },
 ];

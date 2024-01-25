@@ -19,12 +19,12 @@ const Footer = () => {
               <img src="github.svg" className="w-[50px] h-[50px]" />
             </a>
           </li>
-          {/* <li className="mx-5 my-0">
-            <a href="https://github.com/ColinWu0403" target="_blank">
-              <img src="github.svg" className="w-[50px] h-[50px]" />
+          <li className="mx-5 my-0">
+            <a href="https://devpost.com/ColinWu0403" target="_blank">
+              <img src="devpost.png" className="w-[50px] h-[50px]" />
             </a>
           </li>
-          <li className="mx-5 my-0">
+          {/* <li className="mx-5 my-0">
             <a href="https://github.com/ColinWu0403" target="_blank">
               <img src="github.svg" className="w-[50px] h-[50px]" />
             </a>
@@ -36,7 +36,7 @@ const Footer = () => {
           </li> */}
         </ul>
         <p>
-          Copyright &copy; 2023 Colin Wu. Template from <span>JSMastery</span>
+          Copyright &copy; 2024 Colin Wu. Template from <span>JSMastery</span>
         </p>
       </div>
     </footer>
