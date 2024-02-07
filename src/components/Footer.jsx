@@ -21,7 +21,7 @@ const Footer = () => {
           </li>
           <li className="mx-5 my-0">
             <a href="https://devpost.com/ColinWu0403" target="_blank">
-              <img src="devpost.png" className="w-[50px] h-[50px]" />
+              <img src="devpost.svg" className="w-[50px] h-[50px]" />
             </a>
           </li>
           {/* <li className="mx-5 my-0">
